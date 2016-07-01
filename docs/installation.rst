@@ -9,9 +9,9 @@ automatically and stored in a folder in your application data.
 
 To install imageio, use one of the following methods:
     
-* If you are in a conda env: ``conda install -c pyzo imageio``
-* If you have pip: ``pip install imageio``
-* Good old ``python setup.py install``
+* If you are in a conda env: ``conda install -c menpo imageio``
+* If you have pip: ``pip install imageio`` (old version, might break current ffmpeg installtion)
+* Good old ``python setup.py install`` (maybe old version as well)
 
 To install imageio with the freeimage library and a few images included,
 you can force downloading the libs when building, or use one of the
